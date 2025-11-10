@@ -3,6 +3,11 @@
   src: local(papyrus);
 }
 
+@font-face {
+    font-family: trajanpro;
+    src: url(trajan.otf)
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +25,7 @@ body {
     height: 10%;
     width: 100%;
     background-color: rgb(0, 128, 17);
+    font-family: trajanpro;
 }
 
 #spring, #rhythm, #pantheon {
