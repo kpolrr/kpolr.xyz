@@ -42,3 +42,16 @@ a {
     text-decoration: underline #777;
     transform: scale(1.2);
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-container>div {
+    padding: 10px;
+    margin: 10px;
+    background: #737373;
+    color: white;
+    border-radius: 10px;
+}
